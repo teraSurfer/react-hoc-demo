@@ -5,7 +5,7 @@ export default function App() {
   return (
     <div>
       <h1>HOC example</h1>
-      <Child hello={"hello"} />
+      <Child hello={"hello"} howdy={"Howdy"} />
     </div>
   );
 }
