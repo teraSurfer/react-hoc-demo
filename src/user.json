@@ -1,5 +1,22 @@
-{
-  "name": "Rohit",
-  "type": "batsman",
-  "country": "India"
-}
+[
+  {
+    "name": "Rohit",
+    "type": "batsman",
+    "country": "India"
+  },
+  {
+    "name": "Virat",
+    "type": "batsman",
+    "country": "India"
+  },
+  {
+    "name": "Dhoni",
+    "type": "batsman",
+    "country": "India"
+  },
+  {
+    "name": "Dhawan",
+    "type": "batsman",
+    "country": "India"
+  }
+]
