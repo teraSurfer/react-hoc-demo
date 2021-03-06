@@ -21,12 +21,12 @@ function x(a, b) {
 
   // resembles reducer functionality
   const actions = b(dispatch);
-  // z is a function which accepts a component as input
-  return function z(Component) {
-    // y is a HigherOrderComponent
+  // y is a HigherOrderComponent
+  return function y(Component) {
+    // z is the rendered component
     // which takes props from its caller (App.js) and passes it to
     // its child component (Child.js).
-    return function y(props) {
+    return function z(props) {
       console.log(props);
       return <Component user={user} {...actions} {...props} />;
     };
